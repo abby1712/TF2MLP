@@ -2,33 +2,6 @@
 #include "TF2MLP.h"
 
 
-// bool matrix_multiply(int R, int R2, int C2, double* a, double* b, double* result, int size){
-//  // double result[R2];
-//   double cpy[R];
-//   for (int i=0;i<R;i++){
-//     cpy[i] = a[i];
-//   }
-//   int columnB = 0;
-//   for (int i = 0; i < R2; i++) {
-//     int bIter = columnB;
-//     double sum = 0;
-//     for (int j = 0; j < R; j++) {
-//       //printf("==%f %f==", a[j], b[bIter]);
-//       sum += cpy[j] * b[bIter];
-//       bIter += R2;
-//     }
-//     //printf("\n");
-//     result[i] = sum;
-//     if (i < size) {
-//     } else {
-//       return false;
-//     }
-//     columnB ++;
-//   }
-//   return true;
-//   // return result;
-// }
-
 MicroMLP::MicroMLP(int la, int* top, double* w, double* b, int* a){
   layers = la;
   topology = top;

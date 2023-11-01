@@ -19,5 +19,8 @@ Currently, tflite-micro can only run on high memory boards like the Nano 33 BLE.
 | ESP32            | ESP-WROOM-32   | 320KB |
 
 
+Inspired From : https://github.com/Bobingstern/MicroFlow
+Made some chnages to the orginal library , for more precise float representation
+
 
 
